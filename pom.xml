@@ -16,6 +16,7 @@
 	<modules>
 		<module>qa-dashboard-model</module>
 		<module>qa-dashboard-retriever</module>
+		<module>qa-dashboard-common</module>
 	</modules>
 
 	<build>

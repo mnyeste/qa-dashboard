@@ -13,6 +13,38 @@ import javax.persistence.ManyToOne;
 public class Measurement {
 
 	
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Metric getMetric() {
+		return metric;
+	}
+
+	public void setMetric(Metric metric) {
+		this.metric = metric;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id; 

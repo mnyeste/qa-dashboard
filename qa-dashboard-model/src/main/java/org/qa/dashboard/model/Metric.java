@@ -16,5 +16,24 @@ public class Metric {
 	private String sonarId;
 	private String sonarName;
 	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getSonarId() {
+		return sonarId;
+	}
+	public void setSonarId(String sonarId) {
+		this.sonarId = sonarId;
+	}
+	public String getSonarName() {
+		return sonarName;
+	}
+	public void setSonarName(String sonarName) {
+		this.sonarName = sonarName;
+	}
+	
 	
 }
